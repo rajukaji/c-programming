@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699696311 source:c:\users\user\desktop\c\swtich\main.c
+	<stdio.h>
+	<stdlib.h>
+
