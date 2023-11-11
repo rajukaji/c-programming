@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1699692335 source:c:\users\user\desktop\c\if\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1699692550 source:c:\users\user\desktop\c\if\gpaconverter.c
+	<stdio.h>
+	<stdlib.h>
+
