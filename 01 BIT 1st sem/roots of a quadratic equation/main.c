@@ -12,7 +12,7 @@ int main()
     scanf("%d", &b);
     printf("Enter the value of c :: ");
     scanf("%d", &c);
-    discriminant = (b * b) - (4 * a * c);
+    discriminant = (b * b) - (4 * a * c);//b^2 - 4ac
     result = - b + sqrt(discriminant);
     root1 = result / (2 * a);
     result = - b - sqrt(discriminant);
