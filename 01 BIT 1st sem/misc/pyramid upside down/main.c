@@ -26,7 +26,7 @@ int main()
         {
             printf("    ");
         }
-        for(col = 2 * row - 1; col <= 2 * n - 1; k++)
+        for(col = row; col >= 2 * n - 1; k--)
         {
             printf("*  ");
         }
