@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1707161541 source:c:\users\user\desktop\c\01 bit 1st sem\string\lenght and palindrome\main.c
+	<stdio.h>
+	<string.h>
+
