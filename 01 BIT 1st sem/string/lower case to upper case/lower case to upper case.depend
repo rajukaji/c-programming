@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1707162792 source:c:\users\user\desktop\c\01 bit 1st sem\string\lower case to upper case\main.c
+	<stdio.h>
+	<string.h>
+
