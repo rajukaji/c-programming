@@ -1,9 +1,12 @@
 #include <stdio.h>
+#include <math.h>//to use fmod() function for floating modulus
+
 /*1.	Write an algorithm and C program that accepts two integers from the user
 as input and calculates the sum, diference, product, quotient and remainder
  applying different arithmetic operators between two integers using
  the concept of switch statement and odd loop.
 */
+
 int main()
 {
     char sign;
@@ -31,9 +34,13 @@ int main()
             printf("%f %c %f = %f\n", a, sign, b, a / b);//quotient
             break;
         case '%'://since it is a remainder, we cannot use float or double, but, integer
-
-            int mod = int(a) % int(b);
-            printf("%f %c %f = %d\n", a, sign, b, a % b);//remainder
+            /*
+            int result;
+            result = int(a) % int(b);
+            not working
+            */
+            printf("%f %c %f = %f\n", a, sign, b, fmod(a, b));//remainder
+            //fmod function with math.h for typecast, for finding modulus of floating type
             break;
         default:
             printf("Please enter valid number or operator!\n");
