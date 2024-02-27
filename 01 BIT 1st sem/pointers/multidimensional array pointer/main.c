@@ -12,8 +12,8 @@ int main()
     printf("&arr[1][2] :: %p \n", &arr[1][2]);
     printf("arr[1][2] :: %d \n", arr[1][2]);
 
-    printf("((ptr + 1)+ 2) :: %p \n", ((ptr + 1)+ 2) );
-    printf("*((ptr + 1)+ 2) :: %d \n", ((ptr + 1)+ 2) );
+    printf("((arr + 1)+ 2) :: %p \n", ((arr + 1)+ 2));
+    printf("*(*(arr + 1)+ 2) :: %d \n", *(*(arr + 1) + 2));//ptr doesn't work
 
     return 0;
 }
