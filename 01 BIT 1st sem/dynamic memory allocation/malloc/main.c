@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //malloc, memory allocation
 //creates a block of memory
 int main()
@@ -18,5 +19,6 @@ int main()
     {
         printf("The %p element :: %d\n", (ptr + i), *(ptr + i));
     }
+    free(ptr);
     return 0;
 }
