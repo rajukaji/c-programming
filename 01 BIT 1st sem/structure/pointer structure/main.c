@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //dynamic memory allocation of structs
 struct details{
     int id;
