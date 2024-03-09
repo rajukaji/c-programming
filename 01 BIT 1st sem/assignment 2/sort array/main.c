@@ -18,13 +18,14 @@ int main()
     int j;
     for(i = 0; i < 5; i++)
     {
-        for(j = 1; j < 5; j++)
+        for(j = i + 1; j < 5; j++)
         {
-            if(arr[i] < arr[j])
+            if(arr[i] > arr[j])
             {
-                swap = arr
-            }
+                swap = arr[i];
                 arr[i] = arr[j];
+                arr[j] = swap;
+            }
 
         }
     }for(i = 0; i < 5; i++)
