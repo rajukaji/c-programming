@@ -16,5 +16,6 @@ int main()
     printf("Enter name of man2 :: ");
     scanf("%s", &man2.name);
     printf("Man 2 name :: %s\n", man2.name);
+    printf("The id of 1st person :: %d\n Name of 2nd person :: %s", man1.id, man2.name);
     return 0;
 }
