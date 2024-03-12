@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 //19.	Write a program to pass array to a function using pointer and return array from a function using pointer.
 int passArray(int* []);
 int main()
