@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710320986 source:c:\users\user\desktop\c\01 bit 1st sem\structure\structure and union diffeerence\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
