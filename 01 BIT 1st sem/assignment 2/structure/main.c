@@ -26,6 +26,7 @@ int main()
     scanf(" %[^\n]", &student1.address);
     printf("Enter your mobile number :: ");
     scanf("%llu", &student1.mobile);
+
     printf("Your details :: \n");
     printf(" Name :: %s %s \n Roll no. :: %d \n Address :: %s \n Mobile Number :: %llu \n "
            , student1.f_name, student1.l_name, student1.rollno, student1.address, student1.mobile);
