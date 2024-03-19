@@ -18,9 +18,17 @@ int main()
     int i;
     for(i = 0; i < 10; i++)
     {
-        printf("For employee %d :: \n", i);
-        printf("Enter your first name ::");
+        printf("For employee %d :: \n", i + 1);
+        printf("Enter your first name ::  ");
         scanf("%s", &employee[i].f_name);
+        printf("Enter your last name ::  ");
+        scanf("%s", &employee[i].l_name);
+        printf("Enter your ESSN ::  ");
+        scanf("%s", &employee[i].essn);
+        printf("Enter your address ::  ");
+        scanf(" %[^\n]", &employee[i].address);//leave space infront
+        printf("Enter your mobile number ::  ");
+        scanf("%llu", &employee[i].mobileNo);
     }
     return 0;
 }
