@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711029405 source:c:\users\user\desktop\c\01 bit 1st sem\assignment 2\union\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
