@@ -20,13 +20,13 @@ int main()
     int row, space, col, n;
     printf("Enter the number of rows :: ");
     scanf("%d", &n);
-    for(row = 0; row <= n; row++)
+    for(row = n; row >= 1; row--)
     {
-        for(space = 0; space < row; space++)
+        for(space = 1; space <= n - row; space++)
         {
-            printf("    ");
+            printf("   ");
         }
-        for(col = row; col >= 2 * n - 1; k--)
+        for(col = 1; col <= 2 * row - 1; col++)
         {
             printf("*  ");
         }
